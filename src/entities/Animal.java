@@ -3,9 +3,11 @@ package entities;
 public class Animal {
 
 	private String nombre;
+	private String tipo;
 
-	public Animal(String nombre) {
+	public Animal(String nombre, String tipo) {
 		this.nombre = nombre;
+		this.setTipo(tipo);
 	}
 
 	public String getNombre() {
@@ -15,6 +17,15 @@ public class Animal {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+	
 	
 	
 }
