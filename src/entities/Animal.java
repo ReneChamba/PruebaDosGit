@@ -7,7 +7,7 @@ public class Animal {
 
 	public Animal(String nombre, String tipo) {
 		this.nombre = nombre;
-		this.setTipo(tipo);
+		this.tipo=tipo;
 	}
 
 	public String getNombre() {
