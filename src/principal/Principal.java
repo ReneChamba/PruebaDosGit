@@ -1,5 +1,8 @@
 package principal;
 
+import java.util.Arrays;
+import java.util.List;
+
 import entities.Persona;
 
 public class Principal {
@@ -16,6 +19,12 @@ public class Principal {
 		Persona javier = new Persona("Javier", "Chamba",30, true);
 		Persona sebas = new Persona("Sebas", "Chamba",8, false);
 		
+		
+		// Lista personas
+		List<Persona> personas = Arrays.asList(ronny, rene, santos, maria, mayra, jandry, javier, sebas);
+		
+		// Mostrar
+		personas.forEach(x -> System.out.println(x));
 
 	}
 
